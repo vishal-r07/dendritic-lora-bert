@@ -1,4 +1,4 @@
-# Dendritic-LoRA (D-LoRA) - Hackathon Submission
+# Dendritic-LoRA-bert- Hackathon Submission
 
 > **"Mimicking the brain's sparse efficiency to fine-tune LLMs with 99% fewer parameters than LoRA."**
 
@@ -44,3 +44,4 @@ We compared Standard LoRA vs Dendritic-LoRA.
 
 ## 🧠 Code Architecture
 We utilized the `perforatedai.utils_perforatedai.initialize_pai()` method to automatically wrap frozen layers, coupled with the `GPA.pai_tracker` for specialized "dendritic growth" optimization.
+
