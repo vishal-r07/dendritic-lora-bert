@@ -4,7 +4,7 @@
 
 **Winner of the "PyTorch Dendritic Optimization" Challenge**
 
-## 🚀 The Winning Formula
+## 🚀 Formula
 Our approach, **Dendritic-LoRA**, achieves **98.92% parameter reduction** compared to full fine-tuning, while matching accuracy on the IMDb sentiment analysis task.
 
 ### The Problem
@@ -44,4 +44,5 @@ We compared Standard LoRA vs Dendritic-LoRA.
 
 ## 🧠 Code Architecture
 We utilized the `perforatedai.utils_perforatedai.initialize_pai()` method to automatically wrap frozen layers, coupled with the `GPA.pai_tracker` for specialized "dendritic growth" optimization.
+
 
